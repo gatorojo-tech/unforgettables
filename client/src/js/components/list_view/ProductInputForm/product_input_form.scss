@@ -1,0 +1,167 @@
+@import "../../../../styles/style_config";
+
+#unf_app .list_view_main_container {
+  .product_form {
+    background: $background_color;
+    border-bottom: 3px solid $border_color;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 7px 7px 9px;
+
+    .name_block {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 35%;
+
+      .input_field_wrapper {
+        border-radius: 6px;
+        border-right: 1px solid $border_color;
+      }
+
+      input {
+        @include input_field($weak_border_color, $border_color);
+        cursor: default;
+        border-style: solid;
+      }
+
+      @media screen and (max-width: 780px) {
+        flex-basis: 99.5%;
+        margin-bottom: 5px;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .label {
+          flex-basis: 40%;
+          max-width: 40%;
+        }
+
+        input {
+          flex-basis: 60%;
+          max-width: 60%;
+        }
+      }
+
+      @media screen and (max-width: 450px) {
+        flex-direction: column;
+        align-items: center;
+
+        .label {
+          width: 80%;
+          max-width: 80%;
+        }
+
+        input {
+          flex-basis: 80%;
+          max-width: 80%;
+        }
+      }
+    }
+
+    .action_block {
+      display: flex;
+      flex-basis: 65%;
+      align-items: flex-end;
+      justify-content: flex-end;
+
+      .action_button {
+        @include default_button($weak_border_color, $default_grey, $default_grey_hover);
+        margin-right: 12px;
+
+        &:last-child {
+          margin-right: 5px;
+        }
+      }
+
+      @media screen and (max-width: 780px) {
+        flex-direction: row;
+        flex-basis: 99.5%;
+        justify-content: space-between;
+        order: 1;
+
+        .action_button {
+          flex-basis: 30%;
+          max-width: 30%;
+          margin: 0;
+          width: unset;
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+
+      @media screen and (max-width: 450px) {
+        flex-direction: column;
+        flex-basis: 99.5%;
+        align-items: center;
+        order: 1;
+
+        .action_button {
+          width: 80%;
+          max-width: 80%;
+          margin-right: 0;
+          margin-bottom: 8px;
+
+          &:last-child {
+            margin-right: 0;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+
+    .comment_block {
+      display: flex;
+      flex-direction: column;
+      margin-top: 7px;
+      width: 100%;
+
+      textarea {
+        @include input_field($weak_border_color, $border_color);
+        resize: none;
+        cursor: default;
+        height: 50px;
+        font-size: 16px;
+        width: 99.5%;
+        padding-left: 8px;
+        border-style: solid;
+      }
+
+      .label {
+        color: $text_color;
+        text-align: left;
+        margin-bottom: 1px;
+        margin-left: 12px;
+        padding: 0;
+
+        .optional {
+          font-size: 12px;
+        }
+      }
+
+      @media screen and (max-width: 780px) {
+        margin-top: 0;
+        margin-bottom: 8px;
+
+        .label {
+          margin-left: 0;
+        }
+      }
+
+      @media screen and (max-width: 450px) {
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 8px;
+
+        textarea {
+          width: 80%;
+          max-width: 80%;
+        }
+
+        .label {
+          width: 80%;
+        }
+      }
+    }
+  }
+}

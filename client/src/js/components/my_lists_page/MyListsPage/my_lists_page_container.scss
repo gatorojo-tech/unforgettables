@@ -1,0 +1,7 @@
+@import "../../../../styles/style_config";
+
+#unf_app .my_lists_page_main_container {
+  @include page_container;
+  padding: 30px;
+  background: $background_light_color;
+}

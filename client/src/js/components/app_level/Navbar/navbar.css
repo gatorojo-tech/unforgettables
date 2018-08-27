@@ -1,0 +1,71 @@
+/** Buttons **/
+/** Navbar **/
+/** Footer **/
+#unf_app .navbar {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  top: 0;
+  background: #8C5151;
+  z-index: 100; }
+  #unf_app .navbar .active_link > * {
+    color: #38ceec; }
+  #unf_app .navbar .navbar_container {
+    position: relative;
+    display: flex;
+    max-width: 985px;
+    min-width: 320px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    align-items: center; }
+    @media screen and (min-width: 780px) {
+      #unf_app .navbar .navbar_container .link_wrapper {
+        width: 18%;
+        justify-content: flex-start; } }
+    @media screen and (max-width: 780px) {
+      #unf_app .navbar .navbar_container .link_wrapper {
+        width: 21%; } }
+    @media screen and (max-width: 500px) {
+      #unf_app .navbar .navbar_container .link_wrapper {
+        width: 15%; }
+      #unf_app .navbar .navbar_container .save_notification_wrapper {
+        width: 15%; }
+      #unf_app .navbar .navbar_container .nav_link_description, #unf_app .navbar .navbar_container .save_notification_description {
+        display: none; } }
+    #unf_app .navbar .navbar_container nav {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding-left: 3%; }
+      #unf_app .navbar .navbar_container nav .save_notification_wrapper {
+        font-size: 16px;
+        color: #f2f3f4;
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.8; }
+        #unf_app .navbar .navbar_container nav .save_notification_wrapper.saved {
+          color: #31d359; }
+        #unf_app .navbar .navbar_container nav .save_notification_wrapper.saving {
+          color: #E25D53; }
+      #unf_app .navbar .navbar_container nav .link_wrapper {
+        position: relative;
+        color: #f2f3f4;
+        font-size: 16px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        #unf_app .navbar .navbar_container nav .link_wrapper.disabled_link {
+          opacity: 0.5;
+          cursor: not-allowed; }
+      #unf_app .navbar .navbar_container nav .nav_link_image {
+        font-size: 24px;
+        margin-right: 10px; }
+
+/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,33 @@
+/** Buttons **/
+/** Navbar **/
+/** Footer **/
+#unf_app .app_footer {
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  bottom: 0;
+  background: #545252;
+  color: #e6e4e4;
+  font-size: 14px; }
+  #unf_app .app_footer .footer_content_wrapper {
+    position: relative;
+    display: flex;
+    max-width: 985px;
+    min-width: 320px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px; }
+  #unf_app .app_footer .repository_link {
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: -3px;
+    color: #e6e4e4; }
+  #unf_app .app_footer .app_version {
+    margin-left: auto; }
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,32 @@
+@import "mixins";
+
+$app_max_width: 985px;
+$app_min_width: 320px;
+
+$text_color: #8C5151;
+$background_color: #F2E8C9;
+$background_light_color: #FFFAED;
+$bought_product_background: #dff7e6;
+$border_color: #8C5151;
+$weak_border_color: #D3C185;
+
+/** Buttons **/
+$confirm_red: #E25D53;
+$confirm_red_hover: #FF7777;
+$confirm_green: #31d359;
+$confirm_green_hover: #60FF9A;
+$default_grey: #eee;
+$default_grey_hover: #fafafa;
+$action_button_hover: #2cacff;
+$brown_button: #f2f3f4;
+$my_lists_action_buttons: #d38c8c;
+$my_lists_action_buttons_hover: #8C5151;
+
+/** Navbar **/
+$navbar_background_color: #8C5151;
+$navbar_text_color: #f2f3f4;
+$active_link_color: #38ceec;
+
+/** Footer **/
+$footer_background_color: #545252;
+$footer_text_color: #e6e4e4;

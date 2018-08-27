@@ -1,0 +1,98 @@
+/** Buttons **/
+/** Navbar **/
+/** Footer **/
+.profile_content_container .connection_row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 5px 4px 5px 15px;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #8C5151;
+  border-radius: 4px;
+  position: relative; }
+  .profile_content_container .connection_row.error {
+    justify-content: center; }
+    .profile_content_container .connection_row.error .error_description {
+      color: #E25D53; }
+  .profile_content_container .connection_row .connection_name {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 200px;
+    max-width: 200px;
+    overflow: hidden; }
+  .profile_content_container .connection_row .connection_id_input {
+    width: 260px;
+    height: 34px;
+    font-size: 16px;
+    font-family: cursive;
+    color: #8C5151;
+    text-align: center; }
+    @media (max-width: 450px) {
+      .profile_content_container .connection_row .connection_id_input {
+        width: 192px;
+        font-size: 12px; } }
+    @media (max-width: 390px) {
+      .profile_content_container .connection_row .connection_id_input {
+        width: 160px;
+        font-size: 10px; } }
+  .profile_content_container .connection_row i.close_button, .profile_content_container .connection_row i.confirm_connection_button {
+    padding: 10px;
+    border: 1px dotted #8C5151;
+    border-radius: 4px;
+    cursor: pointer; }
+  .profile_content_container .connection_row i.close_button:hover {
+    color: #E25D53;
+    border-color: #E25D53; }
+  .profile_content_container .connection_row i.confirm_connection_button:hover {
+    color: #31d359;
+    border-color: #31d359; }
+  .profile_content_container .connection_row .add_connection_button {
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8C5151;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #eee;
+    user-select: none; }
+    .profile_content_container .connection_row .add_connection_button:hover {
+      background: #eee; }
+  .profile_content_container .connection_row.add_connection_wrapper {
+    justify-content: center; }
+  @media (max-width: 680px) {
+    .profile_content_container .connection_row {
+      flex-direction: column;
+      align-items: flex-start;
+      height: 70px; }
+      .profile_content_container .connection_row.add_connection_wrapper {
+        align-items: center; }
+      .profile_content_container .connection_row .connection_name, .profile_content_container .connection_row .connection_id {
+        width: 265px;
+        max-width: 265px;
+        padding: 5px 0; }
+      .profile_content_container .connection_row i.fa {
+        position: absolute;
+        right: 2%;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 22px;
+        padding: 14px; } }
+  @media (max-width: 450px) {
+    .profile_content_container .connection_row .connection_name, .profile_content_container .connection_row .connection_id {
+      width: 200px;
+      max-width: 200px; }
+    .profile_content_container .connection_row .connection_id {
+      font-size: 12px; } }
+  @media (max-width: 390px) {
+    .profile_content_container .connection_row .connection_name, .profile_content_container .connection_row .connection_id {
+      width: 170px;
+      max-width: 170px; }
+    .profile_content_container .connection_row .connection_id {
+      font-size: 10px; } }
+
+/*# sourceMappingURL=connections_content.css.map */

@@ -1,0 +1,72 @@
+/** Buttons **/
+/** Navbar **/
+/** Footer **/
+#unf_app .list_view_main_container {
+  max-width: 985px;
+  min-width: 320px;
+  min-height: 450px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+  border: 5px solid #8C5151;
+  color: #8C5151;
+  background: #FFFAED;
+  display: flex;
+  flex-direction: column; }
+  #unf_app .list_view_main_container .product_list_container {
+    width: 100%;
+    background: #FFFAED;
+    max-height: 500px;
+    min-height: 200px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding: 12px 7px 7px 7px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start; }
+  #unf_app .list_view_main_container .title_confirm_row {
+    display: flex;
+    flex-wrap: wrap;
+    background: #F2E8C9;
+    border-bottom: 3px solid #8C5151; }
+  #unf_app .list_view_main_container .action_row {
+    display: flex;
+    flex-wrap: wrap;
+    background: #F2E8C9;
+    border-bottom: 3px solid #8C5151; }
+  #unf_app .list_view_main_container .action_row {
+    height: 50px;
+    align-items: center;
+    justify-content: flex-end; }
+    #unf_app .list_view_main_container .action_row .action_button {
+      width: 150px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #D3C185;
+      border-radius: 6px;
+      cursor: pointer;
+      background: #eee;
+      user-select: none;
+      margin-right: 12px; }
+      #unf_app .list_view_main_container .action_row .action_button:hover {
+        background: #fafafa; }
+    @media screen and (max-width: 540px) {
+      #unf_app .list_view_main_container .action_row {
+        height: auto;
+        align-items: center;
+        justify-content: space-between; }
+        #unf_app .list_view_main_container .action_row .action_button {
+          margin: 4px auto;
+          width: 95%; }
+          #unf_app .list_view_main_container .action_row .action_button:first-child {
+            margin-top: 8px; }
+          #unf_app .list_view_main_container .action_row .action_button:last-child {
+            margin-bottom: 8px; } }
+
+/*# sourceMappingURL=list_view_contatainer.css.map */

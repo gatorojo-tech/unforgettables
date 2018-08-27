@@ -1,0 +1,43 @@
+@import "../../../../../styles/style_config";
+
+.profile_content_container {
+  .preferences_block {
+    padding: 10px 20px;
+    border: 1px solid $border_color;
+    border-radius: 8px;
+  }
+
+  .choice_description {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+    text-align: center;
+
+    &:before {
+      content: "\2022";
+      margin-right: 10px;
+    }
+  }
+
+  .variants_wrapper {
+    display: flex;
+    justify-content: space-around;
+
+    input {
+      margin-right: 10px;
+    }
+
+    .variant_element, input, label {
+      cursor: pointer;
+    }
+
+    @media screen and (max-width: 400px) {
+      flex-direction: column;
+      padding-left: 30px;
+
+      .variant_element:last-child {
+        margin-top: 10px;
+      }
+    }
+  }
+}

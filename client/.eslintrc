@@ -1,0 +1,86 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "jquery": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "airbnb"
+  ],
+  "plugins": [
+    "react"
+  ],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "no-console": 1,
+    "no-unused-vars": 1,
+    "comma-dangle": 0,
+    "semi": 0,
+    "object-curly-spacing": 0,
+    "consistent-return": 0,
+    "arrow-parens": 0,
+    "camelcase": 1,
+    "import/extensions": 0,
+    "no-trailing-spaces": 0,
+    "arrow-body-style": 0,
+    "no-param-reassign": 0,
+    "indent": 1,
+    "jsx-quotes": 0,
+    "no-unused-expressions": 1,
+    "linebreak-style": 0,
+    "class-methods-use-this": 0,
+    "padded-blocks": 0,
+    "no-plusplus": 0,
+    "no-return-assign": 0,
+    "no-case-declarations": 0,
+    "no-use-before-define": 0,
+    "import/prefer-default-export": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "react/jsx-indent": 1,
+    "react/jsx-indent-props": 0,
+    "react/jsx-first-prop-new-line": 0,
+    "react/jsx-closing-bracket-location": 0,
+    "react/jsx-handler-names": 0,
+    "react/prop-types": 2,
+    "react/no-set-state": 0,
+
+
+    "react/display-name": 0,
+    "react/forbid-prop-types": 0,
+    "react/jsx-boolean-value": 1,
+    "react/jsx-curly-spacing": 1,
+    "react/jsx-key": 1,
+    "react/jsx-max-props-per-line": 0,
+    "react/jsx-no-bind": 0,
+    "react/jsx-no-duplicate-props": 1,
+    "react/jsx-no-literals": 0,
+    "react/jsx-no-undef": 1,
+    "react/jsx-pascal-case": 1,
+    "react/jsx-sort-prop-types": 0,
+    "react/jsx-sort-props": 0,
+    "react/jsx-uses-react": 1,
+    "react/jsx-uses-vars": 1,
+    "react/no-danger": 1,
+    "react/no-deprecated": 1,
+    "react/no-did-mount-set-state": 1,
+    "react/no-did-update-set-state": 1,
+    "react/no-direct-mutation-state": 1,
+    "react/no-is-mounted": 1,
+    "react/no-multi-comp": 0,
+    "react/no-string-refs": 0,
+    "react/no-unknown-property": 1,
+    "react/prefer-es6-class": 1,
+    "react/react-in-jsx-scope": 1,
+    "react/require-extension": 1,
+    "react/self-closing-comp": 1,
+    "react/sort-comp": 1,
+    "react/jsx-wrap-multilines": 1
+  }
+}

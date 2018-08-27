@@ -1,0 +1,43 @@
+@mixin page_container () {
+  max-width: $app_max_width;
+  min-width: $app_min_width;
+  min-height: 450px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+  border: 5px solid $border_color;
+  color: $text_color;
+  background: $background_light_color;
+}
+
+@mixin default_button($border_color, $background_color, $background_hover_color) {
+  width:150px;
+  height:30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $border_color;
+  border-radius: 6px;
+  cursor: pointer;
+  background: $background_color;
+  user-select: none;
+
+  &:hover {
+    background: $background_hover_color;
+  }
+}
+
+@mixin input_field($border_color, $text_color) {
+  width: 100%;
+  display: flex;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid $border_color;
+  border-radius: 4px;
+  color: $text_color;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}

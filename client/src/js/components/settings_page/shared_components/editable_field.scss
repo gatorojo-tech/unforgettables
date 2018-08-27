@@ -1,0 +1,44 @@
+@import "../../../../styles/style_config";
+
+.edit_field {
+  position: relative;
+
+  &.edit_mode {
+    background-color: #fefefe;
+  }
+
+  .edit_field_action {
+    position: absolute;
+    right: 3%;
+    top: 25%;
+    cursor: pointer;
+    font-size: 18px;
+
+    &.edit:hover {
+      color: $action_button_hover;
+    }
+
+    &.save:hover {
+      color: $confirm_green;
+    }
+  }
+
+  input.edit_field_content {
+    width: 100%;
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    outline: none;
+    padding-right: 24px;
+  }
+
+  div.edit_field_content {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    overflow: hidden;
+    padding-right: 26px;
+  }
+}

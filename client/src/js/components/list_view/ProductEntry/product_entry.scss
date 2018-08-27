@@ -1,0 +1,71 @@
+@import "../../../../styles/style_config";
+
+#unf_app .list_view_main_container {
+  .product_container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px dotted $border_color;
+    padding: 5px;
+    background: #f2f3f4;
+    margin: 0 0.5% 10px 0.5%;
+    border-radius: 6px;
+    flex-basis: 99%;
+    max-width: 99%;
+    cursor: pointer;
+
+    &.bought_item {
+      background: $bought_product_background;
+      border: 1px solid $confirm_green;
+
+      .edit_product > i.fa {
+        color: $confirm_green;
+      }
+    }
+
+    &.item_to_delete {
+      border: 1px solid #000;
+      background: #ccc;
+    }
+
+    .product_name {
+      display: flex;
+      flex-basis: 20%;
+      white-space: nowrap;
+      max-width: 20%;
+      overflow: hidden;
+      font-size: 16px;
+
+      .name_wrapper {
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+    }
+
+    .product_comment {
+      display: flex;
+      flex-basis: 72%;
+      max-width: 72%;
+      font-size: 14px;
+      overflow-y: auto;
+
+      .comment_wrapper {
+        word-break: break-all;
+      }
+    }
+
+    .edit_product {
+      display: flex;
+      flex-basis: 3%;
+      justify-content: center;
+
+      & > span {
+        font-size: 16px;
+        border: 1px solid $border_color;
+        padding: 2px;
+        border-radius: 4px;
+      }
+    }
+  }
+}

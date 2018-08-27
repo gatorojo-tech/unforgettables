@@ -1,0 +1,58 @@
+/** Buttons **/
+/** Navbar **/
+/** Footer **/
+#unf_app .list_view_main_container .title_confirm_row .confirm_block {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-around;
+  flex-basis: 100%;
+  border-top: 3px solid #8C5151; }
+  @media screen and (max-width: 540px) {
+    #unf_app .list_view_main_container .title_confirm_row .confirm_block {
+      height: 100%;
+      flex-wrap: wrap; } }
+  #unf_app .list_view_main_container .title_confirm_row .confirm_block .confirm_button {
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #D3C185;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none; }
+    #unf_app .list_view_main_container .title_confirm_row .confirm_block .confirm_button:hover {
+      background: #fafafa; }
+    @media screen and (max-width: 540px) {
+      #unf_app .list_view_main_container .title_confirm_row .confirm_block .confirm_button {
+        margin: 10px;
+        width: 100%; }
+        #unf_app .list_view_main_container .title_confirm_row .confirm_block .confirm_button:last-child {
+          margin-top: 0; } }
+  #unf_app .list_view_main_container .title_confirm_row .confirm_block .confirm_text {
+    max-width: 400px; }
+    @media screen and (max-width: 740px) {
+      #unf_app .list_view_main_container .title_confirm_row .confirm_block .confirm_text {
+        max-width: 200px;
+        text-align: center; } }
+    @media screen and (max-width: 540px) {
+      #unf_app .list_view_main_container .title_confirm_row .confirm_block .confirm_text {
+        margin: 0 10px 10px;
+        width: 100%;
+        max-width: 100%;
+        text-align: center; } }
+  #unf_app .list_view_main_container .title_confirm_row .confirm_block .green_button {
+    background: #31d359; }
+    #unf_app .list_view_main_container .title_confirm_row .confirm_block .green_button:hover {
+      background: #60FF9A; }
+  #unf_app .list_view_main_container .title_confirm_row .confirm_block .grey_button {
+    background: #eee; }
+    #unf_app .list_view_main_container .title_confirm_row .confirm_block .grey_button:hover {
+      background: #fafafa; }
+  #unf_app .list_view_main_container .title_confirm_row .confirm_block .red_button {
+    background: #E25D53; }
+    #unf_app .list_view_main_container .title_confirm_row .confirm_block .red_button:hover {
+      background: #FF7777; }
+
+/*# sourceMappingURL=confirm_block.css.map */

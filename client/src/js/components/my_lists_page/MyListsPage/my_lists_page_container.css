@@ -1,0 +1,18 @@
+/** Buttons **/
+/** Navbar **/
+/** Footer **/
+#unf_app .my_lists_page_main_container {
+  max-width: 985px;
+  min-width: 320px;
+  min-height: 450px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+  border: 5px solid #8C5151;
+  color: #8C5151;
+  background: #FFFAED;
+  padding: 30px;
+  background: #FFFAED; }
+
+/*# sourceMappingURL=my_lists_page_container.css.map */

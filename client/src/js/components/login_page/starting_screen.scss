@@ -1,0 +1,23 @@
+@import "../../../styles/style_config";
+
+#unf_app.login_form_wrapper, #unf_app.loading_container {
+  width: 320px;
+  height: 270px;
+  background: $background_color;
+  border: 3px solid $border_color;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .loading_container_description {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: $text_color;
+  }
+}

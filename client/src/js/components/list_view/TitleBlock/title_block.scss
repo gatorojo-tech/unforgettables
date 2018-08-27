@@ -1,0 +1,35 @@
+@import "../../../../styles/style_config";
+
+#unf_app .list_view_main_container {
+
+  .title_block {
+    display: flex;
+    height: 50px;
+    align-items: center;
+  }
+
+  .title_block {
+    flex-basis: 50%;
+
+    .list_title {
+      @include input_field($weak_border_color, $border_color);
+      margin-left: 10px;
+      margin-right: 10px;
+      font-family: inherit !important;
+
+      & > div {
+        white-space: nowrap;
+        max-width: 446px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-top: 1px;
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    @media screen and (max-width: 540px) {
+      flex-basis: 100%;
+    }
+  }
+}

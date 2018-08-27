@@ -1,0 +1,23 @@
+/** Buttons **/
+/** Navbar **/
+/** Footer **/
+#unf_app.login_form_wrapper, #unf_app.loading_container {
+  width: 320px;
+  height: 270px;
+  background: #F2E8C9;
+  border: 3px solid #8C5151;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #unf_app.login_form_wrapper .loading_container_description, #unf_app.loading_container .loading_container_description {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #8C5151; }
+
+/*# sourceMappingURL=starting_screen.css.map */

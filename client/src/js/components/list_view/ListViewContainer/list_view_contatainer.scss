@@ -1,0 +1,66 @@
+@import "../../../../styles/style_config";
+
+#unf_app .list_view_main_container {
+  @include page_container;
+  display: flex;
+  flex-direction: column;
+
+  .product_list_container {
+    width: 100%;
+    background: #FFFAED;
+    max-height: 500px;
+    min-height: 200px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding: 12px 7px 7px 7px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+  }
+
+  .title_confirm_row {
+    display: flex;
+    flex-wrap: wrap;
+    background: $background_color;
+    border-bottom: 3px solid $border_color;
+  }
+
+  .action_row {
+    display: flex;
+    flex-wrap: wrap;
+    background: $background_color;
+    border-bottom: 3px solid $border_color;
+  }
+
+  .action_row {
+    height: 50px;
+    align-items: center;
+    justify-content: flex-end;
+
+    .action_button {
+      @include default_button($weak_border_color, $default_grey, $default_grey_hover);
+      margin-right: 12px;
+    }
+
+    @media screen and (max-width: 540px) {
+      height: auto;
+      align-items: center;
+      justify-content: space-between;
+
+      .action_button {
+        margin: 4px auto;
+        width: 95%;
+
+        &:first-child {
+          margin-top: 8px;
+        }
+        &:last-child {
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+}

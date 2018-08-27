@@ -1,0 +1,67 @@
+@import "../../../../styles/style_config";
+
+#unf_app .list_view_main_container {
+  .title_confirm_row {
+    .confirm_block {
+      display: flex;
+      height: 50px;
+      align-items: center;
+      justify-content: space-around;
+      flex-basis: 100%;
+      border-top: 3px solid $border_color;
+
+      @media screen and (max-width: 540px) {
+        height: 100%;
+        flex-wrap: wrap;
+      }
+
+      .confirm_button {
+        @include default_button($weak_border_color, null, $default_grey_hover);
+
+        @media screen and (max-width: 540px) {
+          margin: 10px;
+          width: 100%;
+
+          &:last-child {
+            margin-top: 0;
+          }
+        }
+      }
+
+      .confirm_text {
+        max-width: 400px;
+
+        @media screen and (max-width: 740px) {
+          max-width: 200px;
+          text-align: center;
+        }
+
+        @media screen and (max-width: 540px) {
+          margin: 0 10px 10px;
+          width: 100%;
+          max-width: 100%;
+          text-align: center;
+        }
+      }
+
+      .green_button {
+        background: $confirm_green;
+        &:hover {
+          background: $confirm_green_hover;
+        }
+      }
+      .grey_button {
+        background: $default_grey;
+        &:hover {
+          background: $default_grey_hover;
+        }
+      }
+      .red_button {
+        background: $confirm_red;
+        &:hover {
+          background: $confirm_red_hover;
+        }
+      }
+    }
+  }
+}

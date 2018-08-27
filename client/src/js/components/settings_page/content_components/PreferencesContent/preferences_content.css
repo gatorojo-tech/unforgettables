@@ -1,0 +1,30 @@
+/** Buttons **/
+/** Navbar **/
+/** Footer **/
+.profile_content_container .preferences_block {
+  padding: 10px 20px;
+  border: 1px solid #8C5151;
+  border-radius: 8px; }
+.profile_content_container .choice_description {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 10px;
+  text-align: center; }
+  .profile_content_container .choice_description:before {
+    content: "\2022";
+    margin-right: 10px; }
+.profile_content_container .variants_wrapper {
+  display: flex;
+  justify-content: space-around; }
+  .profile_content_container .variants_wrapper input {
+    margin-right: 10px; }
+  .profile_content_container .variants_wrapper .variant_element, .profile_content_container .variants_wrapper input, .profile_content_container .variants_wrapper label {
+    cursor: pointer; }
+  @media screen and (max-width: 400px) {
+    .profile_content_container .variants_wrapper {
+      flex-direction: column;
+      padding-left: 30px; }
+      .profile_content_container .variants_wrapper .variant_element:last-child {
+        margin-top: 10px; } }
+
+/*# sourceMappingURL=preferences_content.css.map */

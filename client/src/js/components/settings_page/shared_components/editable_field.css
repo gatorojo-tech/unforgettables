@@ -1,0 +1,34 @@
+/** Buttons **/
+/** Navbar **/
+/** Footer **/
+.edit_field {
+  position: relative; }
+  .edit_field.edit_mode {
+    background-color: #fefefe; }
+  .edit_field .edit_field_action {
+    position: absolute;
+    right: 3%;
+    top: 25%;
+    cursor: pointer;
+    font-size: 18px; }
+    .edit_field .edit_field_action.edit:hover {
+      color: #2cacff; }
+    .edit_field .edit_field_action.save:hover {
+      color: #31d359; }
+  .edit_field input.edit_field_content {
+    width: 100%;
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    outline: none;
+    padding-right: 24px; }
+  .edit_field div.edit_field_content {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    overflow: hidden;
+    padding-right: 26px; }
+
+/*# sourceMappingURL=editable_field.css.map */

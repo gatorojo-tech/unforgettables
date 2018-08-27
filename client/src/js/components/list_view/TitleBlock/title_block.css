@@ -1,0 +1,37 @@
+/** Buttons **/
+/** Navbar **/
+/** Footer **/
+#unf_app .list_view_main_container .title_block {
+  display: flex;
+  height: 50px;
+  align-items: center; }
+#unf_app .list_view_main_container .title_block {
+  flex-basis: 50%; }
+  #unf_app .list_view_main_container .title_block .list_title {
+    width: 100%;
+    display: flex;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #D3C185;
+    border-radius: 4px;
+    color: #8C5151;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: inherit !important; }
+    #unf_app .list_view_main_container .title_block .list_title > div {
+      white-space: nowrap;
+      max-width: 446px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-top: 1px;
+      display: flex;
+      align-items: center; }
+  @media screen and (max-width: 540px) {
+    #unf_app .list_view_main_container .title_block {
+      flex-basis: 100%; } }
+
+/*# sourceMappingURL=title_block.css.map */

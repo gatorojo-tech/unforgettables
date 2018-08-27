@@ -1,0 +1,79 @@
+/** Buttons **/
+/** Navbar **/
+/** Footer **/
+#unf_app .settings_page_main_container {
+  max-width: 985px;
+  min-width: 320px;
+  min-height: 450px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+  border: 5px solid #8C5151;
+  color: #8C5151;
+  background: #FFFAED;
+  padding: 20px 40px;
+  background: #FFFAED;
+  position: relative; }
+  @media screen and (max-width: 330px) {
+    #unf_app .settings_page_main_container {
+      padding: 20px 30px; } }
+  #unf_app .settings_page_main_container .settings_title {
+    color: #8C5151;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 40px;
+    text-align: center; }
+    #unf_app .settings_page_main_container .settings_title:before, #unf_app .settings_page_main_container .settings_title:after {
+      content: '  ~  ';
+      white-space: pre; }
+      @media screen and (min-width: 370px) {
+        #unf_app .settings_page_main_container .settings_title:before, #unf_app .settings_page_main_container .settings_title:after {
+          content: '  ~ ~  '; } }
+      @media screen and (min-width: 420px) {
+        #unf_app .settings_page_main_container .settings_title:before, #unf_app .settings_page_main_container .settings_title:after {
+          content: '  ~ ~ ~  '; } }
+  #unf_app .settings_page_main_container .main_option {
+    color: #8C5151;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px; }
+    #unf_app .settings_page_main_container .main_option .option_text {
+      cursor: pointer;
+      text-decoration: none;
+      color: #8C5151; }
+      #unf_app .settings_page_main_container .main_option .option_text:visited {
+        color: #8C5151; }
+  #unf_app .settings_page_main_container .back_button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px; }
+    #unf_app .settings_page_main_container .back_button i.fa {
+      border: 1px dotted #8C5151;
+      padding: 3px;
+      border-radius: 6px;
+      cursor: pointer; }
+  #unf_app .settings_page_main_container .info_block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; }
+    @media screen and (max-width: 430px) {
+      #unf_app .settings_page_main_container .info_block {
+        flex-wrap: wrap; } }
+    #unf_app .settings_page_main_container .info_block .info_label {
+      flex-basis: 130px; }
+    #unf_app .settings_page_main_container .info_block .info_value {
+      border: 1px solid #8C5151;
+      padding: 3px 10px;
+      border-radius: 4px;
+      width: 300px;
+      height: 40px;
+      align-items: center;
+      display: flex;
+      justify-content: center; }
+      @media screen and (max-width: 400px) {
+        #unf_app .settings_page_main_container .info_block .info_value.owner_id {
+          font-size: 14px; } }
+
+/*# sourceMappingURL=settings_page_container.css.map */

@@ -1,0 +1,95 @@
+@import "../../../../styles/style_config";
+
+#unf_app .settings_page_main_container {
+  @include page_container;
+  padding: 20px 40px;
+  background: $background_light_color;
+  position: relative;
+
+  @media screen and (max-width: 330px) {
+    padding: 20px 30px;
+  }
+
+  .settings_title {
+    color: $text_color;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 40px;
+    text-align: center;
+
+    &:before, &:after {
+      content: '  ~  ';
+      white-space: pre;
+
+      @media screen and (min-width: 370px) {
+        content: '  ~ ~  ';
+      }
+
+      @media screen and (min-width: 420px) {
+        content: '  ~ ~ ~  ';
+      }
+    }
+  }
+
+  .main_option {
+    color: $text_color;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+    .option_text {
+      cursor: pointer;
+      text-decoration: none;
+      color: $text_color;
+
+      &:visited {
+        color: $text_color;
+      }
+    }
+  }
+
+  .back_button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+
+    i.fa {
+      border: 1px dotted $text_color;
+      padding: 3px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  }
+
+  .info_block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+    @media screen and (max-width: 430px) {
+      flex-wrap: wrap;
+    }
+
+    .info_label {
+      flex-basis: 130px;
+    }
+
+    .info_value {
+      border: 1px solid $border_color;
+      padding: 3px 10px;
+      border-radius: 4px;
+      width: 300px;
+      height: 40px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+
+      &.owner_id {
+        @media screen and (max-width: 400px) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

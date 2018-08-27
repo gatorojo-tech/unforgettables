@@ -1,0 +1,53 @@
+/** Buttons **/
+/** Navbar **/
+/** Footer **/
+#unf_app .list_view_main_container .product_container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px dotted #8C5151;
+  padding: 5px;
+  background: #f2f3f4;
+  margin: 0 0.5% 10px 0.5%;
+  border-radius: 6px;
+  flex-basis: 99%;
+  max-width: 99%;
+  cursor: pointer; }
+  #unf_app .list_view_main_container .product_container.bought_item {
+    background: #dff7e6;
+    border: 1px solid #31d359; }
+    #unf_app .list_view_main_container .product_container.bought_item .edit_product > i.fa {
+      color: #31d359; }
+  #unf_app .list_view_main_container .product_container.item_to_delete {
+    border: 1px solid #000;
+    background: #ccc; }
+  #unf_app .list_view_main_container .product_container .product_name {
+    display: flex;
+    flex-basis: 20%;
+    white-space: nowrap;
+    max-width: 20%;
+    overflow: hidden;
+    font-size: 16px; }
+    #unf_app .list_view_main_container .product_container .product_name .name_wrapper {
+      text-overflow: ellipsis;
+      overflow: hidden; }
+  #unf_app .list_view_main_container .product_container .product_comment {
+    display: flex;
+    flex-basis: 72%;
+    max-width: 72%;
+    font-size: 14px;
+    overflow-y: auto; }
+    #unf_app .list_view_main_container .product_container .product_comment .comment_wrapper {
+      word-break: break-all; }
+  #unf_app .list_view_main_container .product_container .edit_product {
+    display: flex;
+    flex-basis: 3%;
+    justify-content: center; }
+    #unf_app .list_view_main_container .product_container .edit_product > span {
+      font-size: 16px;
+      border: 1px solid #8C5151;
+      padding: 2px;
+      border-radius: 4px; }
+
+/*# sourceMappingURL=product_entry.css.map */
